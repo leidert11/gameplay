@@ -39,10 +39,10 @@ for (let i = 0; i < cantidad; i++) {
     alert('jugador a ganado, maquina saco tijera y jugador piedra');player=player+1
  }
  else if (player==1 & machine==2 ) {
-    alert('gana la maquina, maquina saco piedra y jugador papel');pc+pc+1
+    alert('gana la maquina, maquina saco papel y jugador piedra');pc+pc+1
  }
  else if (player==2 & machine==3) {
-    alert('gana la maquina, maquina saco papel y jugador tijera');pc+pc+1
+    alert('gana la maquina, maquina saco tijera y jugador papel');pc+pc+1
  }
  else if (player==3 & machine==1) {
     alert('gana la maquina, maquina saco piedra y jugador saco tijera');pc=pc+1
