@@ -9,7 +9,7 @@ let machine
 let cantidad=(+prompt('digite la cantidad de veces que desea jugar?'))
 
 for (let i = 0; i < cantidad; i++) {
-    escoger=prompt(`escoja un numero para jugar  1.piedra  2.papel  3.tijera`)
+    escoger=prompt(`que desea elegir  1.piedra  2.papel  3.tijera`)
 
    switch (escoger) {
       case 'piedra':
