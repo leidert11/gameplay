@@ -4,7 +4,7 @@ let tijera=2
 
 let pc=0
 let player=0
-let machine
+let machine=0
 
 let cantidad=(+prompt('digite la cantidad de veces que desea jugar?'))
 
